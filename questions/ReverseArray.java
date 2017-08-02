@@ -1,5 +1,9 @@
 package com.topFifty.questions;
 
+/*
+ * This will reverse the contents of the array.
+ * Implemented this with two methods: In place reversal and Using Stack.
+ */
 import java.util.Stack;
 
 public class ReverseArray {
@@ -8,18 +12,21 @@ public class ReverseArray {
 		// TODO Auto-generated method stub
 		int[] array = {4,45,12,13,24,35,24,34};
 		reverseArray(array);
-		/*for(int i=0;i<array.length/2;i++){
+		
+		//In place reversal of the array
+		
+		for(int i=0;i<array.length/2;i++){
 			int temp = array[i];
-			array[i] = array[array.length-1-i];
+			array[i]=array[array.length-1-i];
 			array[array.length-1-i] = temp;
 		}
 		
-		//Reversed Array is:
 		for(int i=0;i<array.length;i++){
 			System.out.println(array[i]);
-		}*/
+		}
 	}
 	
+	//Using Stack.
 	public static void reverseArray(int[] arr){
 		Stack<Integer> st = new Stack<>();
 		int[] arrRev = new int[arr.length];

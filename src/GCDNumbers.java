@@ -1,5 +1,3 @@
-package com.topFifty.questions;
-
 import java.util.Scanner;
 
 public class GCDNumbers {
@@ -27,3 +25,4 @@ public class GCDNumbers {
 	}
 
 }
+

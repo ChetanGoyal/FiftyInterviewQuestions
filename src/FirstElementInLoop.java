@@ -1,4 +1,4 @@
-package com.topFifty.questions;
+
 
 public class FirstElementInLoop {
 	private Node head;

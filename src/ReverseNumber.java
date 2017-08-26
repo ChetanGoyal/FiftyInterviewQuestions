@@ -1,4 +1,4 @@
-package com.topFifty.questions;
+
 
 /*
  * This will return the reverse of a number.

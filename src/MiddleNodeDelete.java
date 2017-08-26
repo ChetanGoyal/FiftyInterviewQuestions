@@ -1,4 +1,4 @@
-package com.topFifty.questions;
+
 
 //This will delete the middle element of the list.
 

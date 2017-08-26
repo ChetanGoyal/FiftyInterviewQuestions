@@ -1,4 +1,4 @@
-package com.topFifty.questions;
+
 
 /*
  * This checks for two strings to be Anagram. 

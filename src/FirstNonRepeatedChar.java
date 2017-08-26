@@ -1,4 +1,4 @@
-package com.topFifty.questions;
+
 
 /*
  * It will return the first non repeated character in a string.

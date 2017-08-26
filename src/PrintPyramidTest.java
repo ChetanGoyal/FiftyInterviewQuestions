@@ -1,4 +1,4 @@
-package com.topFifty.questions;
+
 
 public class PrintPyramidTest {
 	public static void main(String args[]) {

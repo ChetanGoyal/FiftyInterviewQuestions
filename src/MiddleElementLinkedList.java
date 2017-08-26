@@ -1,4 +1,4 @@
-package com.topFifty.questions;
+
 
 /*
  * This program performs variety of operation on lists.

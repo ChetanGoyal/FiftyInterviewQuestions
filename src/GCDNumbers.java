@@ -1,3 +1,8 @@
+/*
+ * This will calculate the greatest common divisor for a number.
+ * 
+ */
+
 import java.util.Scanner;
 
 public class GCDNumbers {

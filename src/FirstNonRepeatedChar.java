@@ -20,6 +20,10 @@ public class FirstNonRepeatedChar {
 		scan.close();
 	}
 	
+	/*
+	 * Linkedhash map is used since it maintains the insertion order.
+	 */
+	
 	public static char NonRepeatedChar(String string){
 		
 		Map<Character, Integer> map = new LinkedHashMap<>(string.length());

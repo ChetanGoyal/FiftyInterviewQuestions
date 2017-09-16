@@ -9,9 +9,9 @@ public class StringPalindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String str = "Rats isi tar";
-
-		boolean result = isPalindromeRec(str.toLowerCase());
+		String str = "A Santa lived as a devil at Nasa";
+		str = str.replaceAll("\\s","");
+		boolean result = isPalindrome(str.toLowerCase());
 		System.out.println(result);
 	}
 	

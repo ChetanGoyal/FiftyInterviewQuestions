@@ -54,7 +54,7 @@ public class LinkedListPalindrome {
 		return sp;
 	}
 	
-	//Reverse the linkedlist.
+	//Reverse the linked list.
 	
 	public static Node reverseList(Node current){
 		Node previous = null;

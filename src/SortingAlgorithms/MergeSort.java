@@ -14,12 +14,13 @@ public class MergeSort {
 
         sortArray(arr,0,arr.length-1);
 
-        for(int i=0;i<arr.length;i++){
+        for (int i:arr
+             ) {
             System.out.println(arr[i]);
         }
     }
 
-    public static void sortArray(int[] arr,int l,int r){
+    private static void sortArray(int[] arr,int l,int r){
         if(l<r){
 
             int m = (l+r)/2;
@@ -32,7 +33,7 @@ public class MergeSort {
         }
     }
 
-    public static void mergeArray(int[] arr,int l,int m, int r){
+    private static void mergeArray(int[] arr,int l,int m, int r){
         //Find the length of two arrays.
 
         int n1=m-l+1;

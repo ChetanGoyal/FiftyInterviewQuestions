@@ -13,12 +13,12 @@ public class SelectionSort {
         int[] arr = {1,4,2,3,8,9,6,5,10,78,32};
 
         selSort(arr);
-        for(int i=0;i<arr.length;i++){
+        for (int i: arr){
             System.out.println(arr[i]+"");
         }
     }
 
-    public static void selSort(int[] arr){
+    private static void selSort(int[] arr){
         int n = arr.length;
 
         for(int i=0;i<n-1;i++){

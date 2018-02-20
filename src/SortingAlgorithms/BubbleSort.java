@@ -12,12 +12,13 @@ public class BubbleSort {
         int[] arr = {7,1,6,9,3,4,2,0};
 
         bubbleSort(arr);
-        for(int i=0;i<arr.length;i++){
+        for (int i:arr
+             ) {
             System.out.println(arr[i]);
         }
     }
 
-    public static void bubbleSort(int[] arr){
+    private static void bubbleSort(int[] arr){
         int n = arr.length;
 
         for(int i=0;i<n;i++){

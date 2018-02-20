@@ -1,5 +1,10 @@
 package SortingAlgorithms;
 
+/**
+ * Merge Sort works on Divide and Conquer technique
+ * Time Complexity is O(nlgn)
+ */
+
 public class MergeSort {
 
     public static void main(String[] args){
